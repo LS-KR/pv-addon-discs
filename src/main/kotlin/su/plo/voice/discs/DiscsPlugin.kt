@@ -76,7 +76,7 @@ class DiscsPlugin : JavaPlugin() {
         val handler = CommandHandler(this)
             .addSubCommand(::BurnCommand)
             .addSubCommand(::EraseCommand)
-            .addSubCommand(::SearchCommand)
+//            .addSubCommand(::SearchCommand)
 
         val command = getCommand("disc") ?: throw Exception("Command not found")
 

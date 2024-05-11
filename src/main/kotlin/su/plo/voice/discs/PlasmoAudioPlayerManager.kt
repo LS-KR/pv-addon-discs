@@ -136,13 +136,13 @@ class PlasmoAudioPlayerManager(
     }
 
     private fun registerSources() {
-        lavaPlayerManager.registerSourceManager(YoutubeAudioSourceManager(true))
-        lavaPlayerManager.registerSourceManager(SoundCloudAudioSourceManager.createDefault())
-        lavaPlayerManager.registerSourceManager(BandcampAudioSourceManager())
-        lavaPlayerManager.registerSourceManager(VimeoAudioSourceManager())
-        lavaPlayerManager.registerSourceManager(TwitchStreamAudioSourceManager())
-        lavaPlayerManager.registerSourceManager(BeamAudioSourceManager())
-        lavaPlayerManager.registerSourceManager(GetyarnAudioSourceManager())
+//        lavaPlayerManager.registerSourceManager(YoutubeAudioSourceManager(true))
+//        lavaPlayerManager.registerSourceManager(SoundCloudAudioSourceManager.createDefault())
+//        lavaPlayerManager.registerSourceManager(BandcampAudioSourceManager())
+//        lavaPlayerManager.registerSourceManager(VimeoAudioSourceManager())
+//        lavaPlayerManager.registerSourceManager(TwitchStreamAudioSourceManager())
+//        lavaPlayerManager.registerSourceManager(BeamAudioSourceManager())
+//        lavaPlayerManager.registerSourceManager(GetyarnAudioSourceManager())
         lavaPlayerManager.registerSourceManager(CustomHttpAudioSourceManager(plugin))
     }
 
