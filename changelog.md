@@ -1,4 +1,5 @@
-**Requires [pv-addon-lavaplayer-lib 1.0.8+](https://modrinth.com/plugin/pv-addon-lavaplayer-lib/version/1.0.8) to work**
+**Requires [pv-addon-lavaplayer-lib 1.0.11+](https://modrinth.com/plugin/pv-addon-lavaplayer-lib/version/1.0.11) to work**
 
 Changelog:
-- Config option to change lore burn method
+- Fixed an issue where inserting a disc with shift-click caused it to start playing on 1.21
+- Reintroduced YouTube authorization
